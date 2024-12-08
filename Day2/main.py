@@ -40,7 +40,7 @@ for i in input:
     line = [int(num) for num in line]
     #gets the direction
     direction = getDirection(line)
-    floorSafety= floorChecker(direction, line)
+    floorSafety = floorChecker(direction, line)
     if floorSafety[0]:
         totalSafe += 1
     else:
